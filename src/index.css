@@ -797,9 +797,9 @@ button {
 .pindetail-card {
   position: relative;
   display: grid;
-  grid-template-columns: 1.25fr 0.75fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  width: min(980px, 100%);
+  width: min(1100px, 100%);
   max-height: calc(100vh - 44px);
   background: var(--papel);
   border: 3px solid var(--tinta);
@@ -814,7 +814,7 @@ button {
   place-items: center;
   overflow: hidden;
   min-height: 0;
-  padding: 20px;
+  padding: 24px;
 }
 
 .pindetail-img img {
@@ -826,7 +826,7 @@ button {
 }
 
 .pindetail-panel {
-  padding: 30px 26px 24px;
+  padding: 32px 28px 28px;
   display: flex;
   flex-direction: column;
   gap: 12px;
