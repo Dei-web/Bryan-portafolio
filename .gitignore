@@ -47,3 +47,9 @@ temp/
 *.sqlite
 *.sqlite3
 *.db
+
+# Imágenes originales/respaldo (no se usan en producción)
+/imagenes/
+
+# Duplicado muerto (Vite solo lee el de la raíz)
+src/vite.config.js
