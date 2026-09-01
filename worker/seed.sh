@@ -17,7 +17,7 @@ for f in "${FILES[@]}"; do
 done
 
 ACC2="$R2_ACCOUNT_ID"
-BASE2="https://pub-97d4743707de4241a0db9f49705efdce.r2.dev"
+BASE2="https://pub-99f42c21fe074edd982d045210f4acdd.r2.dev"
 URL_ANIME="${BASE2}/imagenes/proyecto-anime-universe.png"
 URL_HIGH="${BASE2}/imagenes/proyecto-high.png"
 URL_SERENDIPIA="${BASE2}/imagenes/proyecto-serendipia.png"

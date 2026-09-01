@@ -226,9 +226,9 @@ El archivo `vercel.json` configura dos rewrites criticos:
 | Servicio | URL |
 |---|---|
 | Frontend (Vercel) | `https://bryan-portafolio.vercel.app` (o similar) |
-| API (Workers) | `https://brayan-api.deilerc27.workers.dev` |
-| Imagenes (R2 publico) | `https://pub-97d4743707de4241a0db9f49705efdce.r2.dev` |
-| Dashboard Supabase | `https://supabase.com/dashboard/project/qwnefclkyuyboukkvqhb` |
+| API (Workers) | `https://brxan-portfolio.bryanalgarin23.workers.dev` |
+| Imagenes (R2 publico) | `https://pub-99f42c21fe074edd982d045210f4acdd.r2.dev` |
+| Dashboard Supabase | `https://supabase.com/dashboard/project/bdtvcdsaftnxlgbtzzts` |
 | Repo GitHub | `https://github.com/Dei-web/Bryan-portafolio` |
 
 ---

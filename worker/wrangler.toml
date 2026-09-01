@@ -1,12 +1,13 @@
-name = "brayan-api"
+name = "brxan-portfolio"
 main = "src/index.ts"
 compatibility_date = "2024-09-01"
+account_id = "c21b251d0d66b0561c35acd0c5b3078d"
 
 [[r2_buckets]]
 binding = "R2_BUCKET"
 bucket_name = "brxan-portfolio"
 
 [vars]
-R2_ACCOUNT_ID = "007a29b2602ec08df62fe62163a4890f"
-R2_PUBLIC_URL = "https://pub-97d4743707de4241a0db9f49705efdce.r2.dev"
-SUPABASE_URL = "https://qwnefclkyuyboukkvqhb.supabase.co"
+R2_ACCOUNT_ID = "c21b251d0d66b0561c35acd0c5b3078d"
+R2_PUBLIC_URL = "https://pub-99f42c21fe074edd982d045210f4acdd.r2.dev"
+SUPABASE_URL = "https://bdtvcdsaftnxlgbtzzts.supabase.co"
