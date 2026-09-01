@@ -797,8 +797,9 @@ button {
   position: relative;
   display: grid;
   grid-template-columns: 1.25fr 0.75fr;
+  grid-template-rows: 1fr;
   width: min(980px, 100%);
-  max-height: 86vh;
+  height: 86vh;
   background: var(--papel);
   border: 3px solid var(--tinta);
   border-radius: 18px;
@@ -811,13 +812,12 @@ button {
   display: grid;
   place-items: center;
   overflow: hidden;
-  align-self: stretch;
+  min-height: 0;
 }
 
 .pindetail-img img {
   width: 100%;
   height: 100%;
-  max-height: 86vh;
   object-fit: contain;
 }
 
@@ -828,7 +828,7 @@ button {
   gap: 12px;
   overflow: hidden;
   color: var(--tinta);
-  height: 100%;
+  min-height: 0;
 }
 
 .pindetail-actions {
@@ -1025,7 +1025,8 @@ button {
 
   .pindetail-card {
     grid-template-columns: 1fr;
-    overflow-y: auto;
+    grid-template-rows: auto 1fr;
+    overflow: hidden;
   }
 
   .pindetail-img img {
