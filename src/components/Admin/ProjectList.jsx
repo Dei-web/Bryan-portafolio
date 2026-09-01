@@ -32,7 +32,7 @@ export default function ProjectList() {
     <>
       <div className="admin-header-row">
         <h2>Proyectos</h2>
-        <button className="btn" onClick={() => navigate('nuevo')}>Nuevo proyecto</button>
+        <button className="btn" onClick={() => navigate('/admin/nuevo')}>Nuevo proyecto</button>
       </div>
       <div className="admin-grid">
       {projects.map((p) => (
@@ -43,7 +43,7 @@ export default function ProjectList() {
             <span>{p.category}</span>
             <span>{p.images.length} {p.images.length === 1 ? 'imagen' : 'imágenes'}</span>
             <div className="actions">
-              <button className="btn btn-small" onClick={() => navigate(`editar/${p.id}`)}>Editar</button>
+              <button className="btn btn-small" onClick={() => navigate(`/admin/editar/${p.id}`)}>Editar</button>
               <button className="btn btn-small btn-ghost" onClick={() => remove(p.id)} disabled={removing === p.id}>
                 {removing === p.id ? '...' : 'Eliminar'}
               </button>
