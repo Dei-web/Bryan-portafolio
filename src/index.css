@@ -880,6 +880,7 @@ button {
   font-size: 24px;
   margin: 0;
   color: var(--tinta);
+  flex-shrink: 0;
 }
 
 .pindetail-panel .kicker {
@@ -891,6 +892,7 @@ button {
   color: var(--texto);
   line-height: 1.6;
   font-size: 14px;
+  flex-shrink: 0;
 }
 
 .pindetail-nav {
@@ -899,6 +901,7 @@ button {
   display: flex;
   justify-content: space-between;
   gap: 10px;
+  flex-shrink: 0;
 }
 
 .pindetail-nav button {
@@ -1077,10 +1080,10 @@ button {
 input[type="text"], input[type="password"], input[type="number"], textarea { width: 100%; padding: 10px 12px; border: 2px solid var(--borde); border-radius: 8px; background: #fff; color: var(--tinta); font-family: 'Space Mono', monospace; font-size: 13px; }
 textarea { min-height: 80px; resize: vertical; }
 select { padding: 8px; border: 2px solid var(--borde); border-radius: 8px; background: #fff; color: var(--tinta); font-family: 'Space Mono', monospace; font-size: 13px; }
-.comment-form { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; }
+.comment-form { display: flex; flex-direction: column; gap: 8px; margin-top: 14px; flex-shrink: 0; }
 .comment-form input, .comment-form textarea { font-size: 13px; }
 .comments-section { margin-top: 18px; border-top: 2px solid var(--borde); padding-top: 14px; flex: 1; display: flex; flex-direction: column; min-height: 0; overflow: hidden; }
-.comments-section h3 { font-family: 'Archivo Black', sans-serif; color: var(--papel); margin: 0 0 10px; }
+.comments-section h3 { font-family: 'Archivo Black', sans-serif; color: var(--papel); margin: 0 0 10px; flex-shrink: 0; }
 .comment-list { list-style: none; margin: 0 0 14px; padding: 0; flex: 1; overflow-y: auto; min-height: 0; }
 .comment { border: 2px solid var(--borde); border-radius: 10px; padding: 10px; margin-bottom: 8px; background: var(--card); }
 .comment strong { color: var(--verde); font-family: 'Space Mono', monospace; font-size: 12px; }
