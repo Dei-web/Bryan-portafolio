@@ -1,7 +1,7 @@
 export const CONTACTO = {
-  instagram: { usuario: '@brxan.art', url: 'https://instagram.com/brxan.art' },
-  discord: { usuario: 'brxan.art', url: '' },
-  whatsapp: { usuario: '+57 300 000 0000', url: 'https://wa.me/573000000000' },
+  instagram: { usuario: '@brxan.top', url: 'https://instagram.com/brxan.top' },
+  discord: { usuario: 'brxan.top', url: '' },
+  whatsapp: { usuario: '301 4812573', url: 'https://wa.me/@brxan.art?text=Hola!%20Vi%20tu%20portafolio%20y%20me%20encant%C3%B3%20tu%20trabajo.%20Me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20tus%20servicios%F0%9F%8E%A8' },
 }
 
 export const PERFIL = [
