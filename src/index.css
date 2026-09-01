@@ -811,6 +811,7 @@ button {
   display: grid;
   place-items: center;
   overflow: hidden;
+  align-self: stretch;
 }
 
 .pindetail-img img {
