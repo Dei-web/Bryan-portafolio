@@ -9,7 +9,7 @@ export default function FooterBar() {
       </span>
       <span className="footer-right">
         <span className="checker" aria-hidden="true" />
-        brxan.art · 2026
+        brxan.top · 2026
       </span>
     </footer>
   )
